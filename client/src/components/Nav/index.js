@@ -7,11 +7,11 @@ const index = () => {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Nelson's Gourmet Burgers</Navbar.Brand>
+                <Navbar.Brand href="/">Nelson's Gourmet Burgers</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#">Home</Nav.Link>
                     <Nav.Link href="/Menu">Menu</Nav.Link>
                     <Nav.Link href="/Contact">Contact</Nav.Link>
+                    <Nav.Link href="/About">About Us</Nav.Link>
                 </Nav>
             </Navbar>
         </div>

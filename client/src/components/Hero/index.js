@@ -8,13 +8,13 @@ const index = () => {
         <Jumbotron>
             <h1>Hello there!</h1>
             <p>
-                Nelson's Gourmet Burgers resturants have some of the best burger around the San Francisco bay area!
+                Nelson's Gourmet Burgers resturants have some of the best burgers all around the San Francisco bay area!
                 </p>
             <p>
                 Come see why, click below!
                 </p>
             <p>
-                <Button variant="primary">Learn more</Button>
+                <Button variant="primary" href="/About">Learn more</Button>
             </p>
         </Jumbotron>
     )
